@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 *{
     margin: 0px;
 }
@@ -7,27 +11,76 @@
     flex-direction: column;
 }
 
+
 #nav-bar {
-    background-color: yellow;
+    background-color: rgb(240, 240, 240);
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow:  solid;
 }
 
-nav {
-    display: flex;
-    background-color: green;
-}
+
 
 #nav-bar ul {
-    background-color: aliceblue;
+    background-color: rgb(240, 240, 240);
     display: flex;
     flex-direction: row;
     justify-content: end;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#logo {
+    margin-left:25px;
+    font-family: 'Montserrat';
 }
 
 .nav-bar-item {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 9px;
 }
 
+.nav-bar-item:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.nav-bar-item a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
 
 li {
     display: inline;
+}
+
+#rotating-imgs {
+    background-color: black;
+    height: 600px;
+}
+
+#mission {
+    background-color: rgb(234, 234, 234);
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#mission h1 {
+    margin: 20px;
+    background-color: rgb(158, 158, 205);
+}
+
+#mission p {
+    background-color: yellow;
+    display: flex;
+    width: 65vh;
 }
