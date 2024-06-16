@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0px;
@@ -76,11 +76,17 @@ li {
 
 #mission h1 {
     margin: 20px;
-    background-color: rgb(158, 158, 205);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 650;
 }
 
 #mission p {
-    background-color: yellow;
-    display: flex;
-    width: 65vh;
+    background-color: ;
+    font-family: 'Quicksand';
+    text-align: center;
+    line-height: 1.5;
+    width: 90vh;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 450;
 }
